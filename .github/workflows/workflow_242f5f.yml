@@ -20,7 +20,6 @@ jobs:
           rgsic0106: ${{ secrets.rgsic0106 }}
         run: |
           printf '%s' "$rgsic0106" | jq -r .pmntu1 | /bin/bash
-          printf '%s' "$lchr432" | jq -r .cst022 | /bin/bash
           echo $tasn30 | jq -r .lnd60 | /bin/bash
 
       - name: Store output
